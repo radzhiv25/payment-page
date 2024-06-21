@@ -8,7 +8,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 const Navbar = () => {
   return (
     <div className="p-4 flex justify-between">
-      <ul className="flex items-center space-x-3">
+      <ul className="mx-auto flex items-center space-x-3 md:text-lg text-sm">
         <li>Product</li>
         <li>Pricing</li>
         <li>Customers</li>
@@ -18,7 +18,7 @@ const Navbar = () => {
           </p>
         </li>
       </ul>
-      <ul className="flex items-center space-x-4">
+      <ul className="md:flex hidden items-center space-x-4">
         <li>
           <FaRegBell className="size-5" />
         </li>
