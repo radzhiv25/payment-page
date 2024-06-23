@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <div className="mt-auto py-6 px-4 bg-[#0B2C4B] text-[#E9F2F9]">
-      <div className="p-2 grid md:grid-cols-5 grid-cols-2 md:place-items-center gap-5 border-b border-[#6D6969]">
+      <div className="p-2 grid md:grid-cols-5 grid-cols-2 md:place-items-center md:gap-5 gap-3 border-b border-[#6D6969]">
         <p className="mb-auto">Plans & Pricing</p>
         <p className="mb-auto">For Lawyer/CA</p>
         <ul className="space-y-1">

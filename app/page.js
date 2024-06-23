@@ -11,8 +11,8 @@ export default function Home() {
       <Navbar />
       <div className="md:px-20 px-5 md:py-10 py-5 bg-[#E9F2F9] flex flex-col min-h-screen">
         <h1 className="text-4xl text-[#0B2C4B] font-bold">Checkout</h1>
-        <div className="flex md:flex-row flex-col gap-10 md:mt-10 mt-5 ">
-          <div className="md:w-3/5">
+        <div className="flex lg:flex-row flex-col gap-10 md:mt-10 mt-5 ">
+          <div className="lg:w-3/5">
             <div className="border border-[#7DB1D1] rounded-md p-4">
               <h2 className="text-xl text-[#0B2C4B]">Billing Information</h2>
               <p className="text-sm mt-2 md:mb-10 mb-5 text-semibold">
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
             <PaymentType />
           </div>
-          <div className="md:w-2/5">
+          <div className="lg:w-2/5">
             <OrderCard />
             <div className="w-3/4 my-10 mx-auto text-center">
               <p className="flex items-center mx-auto w-max">

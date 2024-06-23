@@ -30,12 +30,12 @@ const OrderCard = () => {
         <button className="p-2 w-full bg-[#1B72B1] rounded text-white">
           Place order
         </button>
-        <div className="flex md:flex-row justify-between flex-col w-full">
-          <div className="flex gap-2 items-center md:mx-0 mx-auto">
+        <div className="flex xl:flex-row justify-between flex-col w-full">
+          <div className="flex gap-2 items-center xl:mx-0 mx-auto">
             <FaLock className="" />
-            <p className="text-center md:text-base text-sm">Secure transaction</p>
+            <p className="text-center lg:text-base text-sm">Secure transaction</p>
           </div>
-          <Image src={Partner} alt="partner" className="md:mt-0 mt-3 md:mx-0 mx-auto"/>
+          <Image src={Partner} alt="partner" className="xl:mt-0 mt-3 xl:mx-0 mx-auto"/>
         </div>
       </div>
     </div>
