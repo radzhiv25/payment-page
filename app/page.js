@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar";
 import { PiDotLight } from "react-icons/pi";
-import { FaCreditCard } from "react-icons/fa";
-import { BsBank2 } from "react-icons/bs";
+import { IoIosCheckmarkCircle } from "react-icons/io";
 import Footer from "./components/Footer";
 import OrderCard from "./components/OrderCard";
+import PaymentType from "./components/PaymentType";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
           <div className="md:w-3/5">
             <div className="border border-[#7DB1D1] rounded-md p-4">
               <h2 className="text-xl text-[#0B2C4B]">Billing Information</h2>
-              <p className="text-sm mt-2 mb-10 text-semibold">
+              <p className="text-sm mt-2 md:mb-10 mb-5 text-semibold">
                 We use this information to register your order and secure your
                 identity
               </p>
@@ -36,43 +36,15 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="mt-5 p-5 border border-[#7DB1D1] rounded">
-              <h2 className="text-xl font-semibold text-[#0B2C4B]">Payments</h2>
-              <ul className="md:flex md:flex-row grid grid-cols-2 gap-3">
-                <li>
-                  <div className="md:py-3 py-1 md:px-5 px-3 border border-[#1B72B1] flex items-center space-x-2 w-max">
-                    <FaCreditCard className="md:size-8 size-5 text-[#1B72B1]" />
-                    <p className="md:text-[16px]">Credit Card</p>
-                  </div>
-                </li>
-                <li>
-                  <div className="py-3 px-5 border border-[#1B72B1] flex items-center space-x-2 w-max">
-                    <FaCreditCard className="size-8 text-[#1B72B1]" />
-                    <p className="text-[16px]">Debit Card</p>
-                  </div>
-                </li>
-                <li>
-                  <div className="py-3 px-5 border border-[#1B72B1] flex items-center space-x-2 w-max">
-                    <BsBank2 className="size-8 text-[#1B72B1]" />
-                    <p className="text-[16px]">Net Banking</p>
-                  </div>
-                </li>
-                <li>
-                  <div className="py-3 px-5 border border-[#1B72B1] flex items-center space-x-2 w-max">
-                    <FaCreditCard className="size-8 text-[#1B72B1]" />
-                    <p className="text-[16px]">Credit Card</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
+            <PaymentType />
           </div>
           <div className="md:w-2/5">
             <OrderCard />
-            <div className="w-3/4 mx-auto text-center">
-              <p>
-                <span></span>Satisfaction Guaranteed
+            <div className="w-3/4 my-10 mx-auto text-center">
+              <p className="flex items-center mx-auto w-max">
+                <span><IoIosCheckmarkCircle className="mx-1"/></span>Satisfaction Guaranteed
               </p>
-              <p>
+              <p className="mt-2 md:text-sm text-xs">
                 If you're not completely happy with your purchase contact us.
                 and we we'll make it right
               </p>
