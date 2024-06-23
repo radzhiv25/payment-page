@@ -7,9 +7,9 @@ import PaymentType from "./components/PaymentType";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#E9F2F9]">
       <Navbar />
-      <div className="md:px-20 px-5 md:py-10 py-5 bg-[#E9F2F9] flex flex-col min-h-screen">
+      <div className="px-5 md:py-10 py-5 flex flex-col min-h-screen w-4/5 mx-auto">
         <h1 className="text-4xl text-[#0B2C4B] font-bold">Checkout</h1>
         <div className="flex lg:flex-row flex-col gap-10 md:mt-10 mt-5 ">
           <div className="lg:w-3/5">
