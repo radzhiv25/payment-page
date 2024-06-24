@@ -5,7 +5,6 @@ A responsive and visually appealing payment page UI built with Next.js, Tailwind
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -21,10 +20,6 @@ A responsive and visually appealing payment page UI built with Next.js, Tailwind
 - Integrated with React Icons for visual appeal
 - Built with Next.js for server-side rendering and static site generation
 - Styled with Tailwind CSS for rapid UI development
-
-## Demo
-
-Check out the live demo of the Payment Page UI [here](#).
 
 ## Getting Started
 
