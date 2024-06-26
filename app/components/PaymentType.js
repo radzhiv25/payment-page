@@ -101,7 +101,7 @@ const PaymentType = () => {
             </button>
           </div>
           <p className="mt-2 text-center md:text-sm text-xs">
-            By clicking "Save Payment" you agree to have your payment instrument
+            By clicking <span className="text-semibold">Save Payment</span> you agree to have your payment instrument
             secured in compliance with RBI regulations, if supported, and the
             tokenized payment details saved as your default method of payment
             for future purchases and/or subscription renewals. You can always

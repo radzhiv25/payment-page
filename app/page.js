@@ -45,7 +45,7 @@ export default function Home() {
                 <span><IoIosCheckmarkCircle className="mx-1"/></span>Satisfaction Guaranteed
               </p>
               <p className="mt-2 md:text-sm text-xs">
-                If you're not completely happy with your purchase contact us.
+                If you are not completely happy with your purchase contact us.
                 and we we'll make it right
               </p>
             </div>
